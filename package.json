@@ -4,12 +4,15 @@
   "description": "API para restaurante",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "restaurante",
     "API",
-    "REST-API"
+    "REST-API",
+    "mongo",
+    "express"
   ],
   "author": "Ross",
   "license": "MIT",

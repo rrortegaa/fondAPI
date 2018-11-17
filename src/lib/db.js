@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+const connect = () => new Promise((resolve, reject) => {
 // connect es una función que me devuelve una nueva promesa
 //const connect = () => new Promise( (resolve, reject) => {
 //mongoose.connect('mongodb://localhost/fondapi', {// Conecta a la DB kodemia
@@ -19,4 +20,4 @@ const mongoose = require('mongoose')
     })
 })
 
-module.exports = { connect}
+module.exports = { connect }
